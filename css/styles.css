@@ -230,9 +230,7 @@ body {
 
 .media {
     position: absolute;
-    left: 540px;
-    top: 2988px;
-    margin-right: var(--main-bottom);
+
 }
 
 .media-portfolio {
