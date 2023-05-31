@@ -230,12 +230,13 @@ body {
 
 .media {
     position: absolute;
-
+    padding-left: 383px;
+    top: 2988px
 }
 
 .media-portfolio {
     position: absolute;
-    left: 540px;
+    padding-left: 383px;
     top: 1820px;
 }
 
