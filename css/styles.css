@@ -429,6 +429,17 @@ body {
     padding-bottom: var(--main-bottom);
 }
 
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
+
 .about-list {
     display: flex;
     gap: 24px;
