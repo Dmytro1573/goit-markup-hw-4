@@ -619,7 +619,7 @@ body {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    margin-bottom: var(--main-bottom);
+    /* margin-bottom: var(--main-bottom); */
 }
 
 .costomers-link {
