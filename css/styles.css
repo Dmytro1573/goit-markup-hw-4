@@ -588,6 +588,11 @@ body {
 
 /* Customers */
 
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .customers-title {
     font-weight: 700;
     font-size: 36px;
