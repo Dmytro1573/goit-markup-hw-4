@@ -636,8 +636,6 @@ body {
 
 .customers-logo {
     display: block;
-    width: 104px;
-    height: 56px;
     fill: #8E8F99;
 }
 
@@ -645,6 +643,7 @@ body {
 .customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
+    fill: #404BBF;
 }
 
 .customers-logo:hover,
