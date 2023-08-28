@@ -638,7 +638,7 @@ body {
 
 .customers-logo {
     display: block;
-    fill: #8E8F99;
+    fill: currentColor;
 }
 
 .customers-link:hover,
