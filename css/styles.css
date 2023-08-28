@@ -437,7 +437,6 @@ body {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    margin: 0 auto;
 }
 
 .about-list {
@@ -565,6 +564,10 @@ body {
 .social-network-icon {
     width: 16px;
     height: 16px;
+}
+
+.network-content {
+    padding: 32px 0 32px;
 }
 
 .team-icon:hover,
