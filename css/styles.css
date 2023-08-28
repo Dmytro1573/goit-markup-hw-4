@@ -574,18 +574,14 @@ body {
     padding: 32px 0;
 }
 
-/* .team-icon:hover,
+.team-icon:hover,
 .team-icon:focus {
     background-color: #404bbf;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 
-} */
-
-.team-icon-item:hover,
-.team-icon-item:focus {
-    background-color: #404BBF;
 }
+
 
 
 /* /Our team */
