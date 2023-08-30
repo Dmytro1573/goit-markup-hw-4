@@ -274,12 +274,16 @@ body {
 
 .overlay-text {
     padding: 50px 30px 160px 30px;
-
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+}
+
+.overlay-subtitle {
+    position: relative;
+    overflow: hidden;
 }
 
 .images-item:hover .overlay,
@@ -290,13 +294,13 @@ body {
 .images-content {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
 }
 
 .images-content:hover,
 .images-content:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0);
-
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* /images */
