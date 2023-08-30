@@ -633,6 +633,7 @@ body {
 }
 
 .customers-title {
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
