@@ -642,6 +642,8 @@ body {
     text-transform: capitalize;
     margin-bottom: 72px;
     margin-top: var(--main-bottom);
+    width: 100%;
+    height: 100%;
 
 }
 
