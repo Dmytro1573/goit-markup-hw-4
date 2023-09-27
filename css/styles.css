@@ -262,6 +262,11 @@ body {
     overflow: hidden;
 }
 
+.images-box:hover,
+.images-box:focus {
+    transform: translateY(0%);
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
