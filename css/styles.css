@@ -114,7 +114,7 @@ body {
     padding: 24px 0;
     font-weight: 500;
     text-decoration: none;
-    color: #404BBF;
+    color: #2E2F42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -140,6 +140,10 @@ body {
 
 .header-list-item.current::after {
     background-color: #404BBF;
+}
+
+.current {
+    color: #404BBF;
 }
 
 .address {
@@ -258,6 +262,13 @@ body {
     overflow: hidden;
 }
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    margin-bottom: 72px;
+}
 
 .overlay-text {
     position: absolute;
@@ -288,14 +299,14 @@ body {
 
 .images-content {
     display: block;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .images-content:hover,
 .images-content:focus {
-    transform: translateY(0);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 
@@ -324,7 +335,7 @@ body {
     margin-bottom: 16px;
 }
 
-.media-portfolio {
+.media-f {
     position: absolute;
     padding-left: 383px;
     top: 1820px;
@@ -429,8 +440,11 @@ body {
     background-color: #4D5AE5;
     color: #fff;
     cursor: pointer;
+    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
+
 
 .hero-btn:hover,
 .hero-btn:focus {
