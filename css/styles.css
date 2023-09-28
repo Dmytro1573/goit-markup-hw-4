@@ -356,16 +356,10 @@ body {
     margin-bottom: 16px;
 }
 
-.media-f {
-    position: absolute;
-    padding-left: 383px;
-    top: 1820px;
-}
 
 .footer-main {
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
 }
 
 .footer-content {
